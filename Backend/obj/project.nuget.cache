@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0p72RuVJCkQ=",
+  "dgSpecHash": "snOexeLACAY=",
   "success": true,
-  "projectFilePath": "E:\\calculator\\Backend\\Backend.csproj",
+  "projectFilePath": "E:\\calculator\\backend\\Backend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ertel\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.7\\microsoft.aspnetcore.openapi.8.0.7.nupkg.sha512",
     "C:\\Users\\ertel\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

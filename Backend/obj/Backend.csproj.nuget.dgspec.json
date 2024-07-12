@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\calculator\\Backend\\Backend.csproj": {}
+    "E:\\calculator\\backend\\Backend.csproj": {}
   },
   "projects": {
-    "E:\\calculator\\Backend\\Backend.csproj": {
+    "E:\\calculator\\backend\\Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\calculator\\Backend\\Backend.csproj",
+        "projectUniqueName": "E:\\calculator\\backend\\Backend.csproj",
         "projectName": "Backend",
-        "projectPath": "E:\\calculator\\Backend\\Backend.csproj",
+        "projectPath": "E:\\calculator\\backend\\Backend.csproj",
         "packagesPath": "C:\\Users\\ertel\\.nuget\\packages\\",
-        "outputPath": "E:\\calculator\\Backend\\obj\\",
+        "outputPath": "E:\\calculator\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ertel\\AppData\\Roaming\\NuGet\\NuGet.Config",
