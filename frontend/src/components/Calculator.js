@@ -7,10 +7,14 @@ const Calculator = () => {
   const [display, setDisplay] = useState('');
 
   const handleButtonClick = (value) => {
-    if (erro){
-      setDisplay(value);
-    }else{
-      setDisplay(display + value);
+    if ("+-*/".includes(value) && "+-*/".includes(display.toString().slice(-1))) {
+      setDisplay(display.toString().slice(0, -1) + value)
+    } else {
+      if (erro) {
+        setDisplay(value);
+      } else {
+        setDisplay(display + value);
+      }
     }
     erro = false;
   };
@@ -26,7 +30,7 @@ const Calculator = () => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ expression: display }),
       });
-      
+
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
