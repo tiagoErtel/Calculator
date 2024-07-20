@@ -1,11 +1,18 @@
 import React, { useState } from 'react';
 import './Calculator.css';
 
+var erro = false;
+
 const Calculator = () => {
   const [display, setDisplay] = useState('');
 
   const handleButtonClick = (value) => {
-    setDisplay(display + value);
+    if (erro){
+      setDisplay(value);
+    }else{
+      setDisplay(display + value);
+    }
+    erro = false;
   };
 
   const handleClear = () => {
@@ -29,6 +36,7 @@ const Calculator = () => {
     } catch (error) {
       console.error('Failed to calculate:', error);
       setDisplay('Error');
+      erro = true;
     }
   };
 
